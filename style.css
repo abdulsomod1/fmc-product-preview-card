@@ -54,10 +54,11 @@ body {
   color: hsl(228, 12%, 48%);
 }
 
-.Price {
-  font-size: 60%;
-  color: black;
+.price {
+  font-size: 20px;
   font-family: "Fraunces", serif;
+  margin-top: 12%;
+  margin-left: 5%;
 }
 
 .percentage {
@@ -65,24 +66,29 @@ body {
 }
 
 .button-container {
-  width: 90%;
+  width: 80%;
   background-color: darkgreen;
-  justify-content: center;
   border-radius: 3%;
   border-style: none;
   font-family: "Montserrat", sans-serif;
   color: white;
-  font-size: 20px;
-  display: flex;
+  font-size: 15px;
   margin-bottom: 5%;
+  margin-left: 7%;
 }
 
 .price-container {
   color: darkgreen;
-  display: flex;
+  font-size: 30px;
 }
 
 .product-price {
   font-family: "Fraunces", serif;
-  font-size: 30px;
+  margin: var(--margin);
+  display: flex;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
 }
