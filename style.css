@@ -70,9 +70,7 @@ body {
   background-color: darkgreen;
   border-radius: 3%;
   border-style: none;
-  font-family: "Montserrat", sans-serif;
   color: white;
-  font-size: 15px;
   margin-bottom: 5%;
   margin-left: 7%;
 }
@@ -91,4 +89,9 @@ body {
 .flex {
   display: flex;
   justify-content: center;
+}
+
+.font {
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
 }
