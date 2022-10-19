@@ -6,34 +6,35 @@ body {
   background-color: antiquewhite;
 }
 
-.discription-container {
-  list-style: none;
-  width: 23%;
-  background-color: white;
-  border-bottom-right-radius: 5%;
-  border-top-right-radius: 5%;
+.flex {
+  display: flex;
 }
 
-.img-container {
-  margin: var(--margin);
-  display: flex;
-  justify-content: center;
-  margin-top: 10%;
+.card {
+  width: 90%;
+  flex-direction: column;
+  margin: auto;
+}
+
+.img-description {
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
   width: 100%;
 }
 
-.img-discription {
+.description-container {
+  background-color: white;
+  border-bottom-right-radius: 5%;
   border-bottom-left-radius: 5%;
-  border-top-left-radius: 5%;
-  width: 23%;
+  width: 100%;
 }
 
-.text-discription {
+.text-description {
   margin: var(--margin);
   margin-left: 5%;
-  margin-top: 15%;
+  margin-top: 5%;
   margin-right: 5%;
-  font-size: 130%;
+  font-size: 120%;
 }
 
 .product-name {
@@ -49,7 +50,7 @@ body {
   font-family: "Fraunces", serif;
 }
 
-.product-discription {
+.product-description {
   font-family: "Montserrat", sans-serif;
   color: hsl(228, 12%, 48%);
 }
@@ -57,8 +58,9 @@ body {
 .price {
   font-size: 20px;
   font-family: "Fraunces", serif;
-  margin-top: 12%;
   margin-left: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .percentage {
@@ -66,9 +68,9 @@ body {
 }
 
 .button-container {
-  width: 80%;
+  width: 70%;
   background-color: darkgreen;
-  border-radius: 3%;
+  border-radius: 4%;
   border-style: none;
   color: white;
   margin-bottom: 5%;
@@ -83,15 +85,40 @@ body {
 .product-price {
   font-family: "Fraunces", serif;
   margin: var(--margin);
-  display: flex;
-}
-
-.flex {
-  display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .font {
-  font-size: 17px;
+  font-size: 20px;
   font-family: "Montserrat", sans-serif;
+}
+
+.cart {
+  margin-left: 20%;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    width: 570px;
+    flex-direction: row;
+  }
+
+  .img-description {
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 0;
+    width: 50%;
+  }
+
+  .description-container {
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 0%;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .card {
+    width: 780px;
+    margin-top: 9%;
+  }
 }
