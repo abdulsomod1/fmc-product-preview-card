@@ -1,6 +1,6 @@
 # product preview card
 
-> This project is just like a challenge in flexbox
+> This project is just like a challenge at flexbox
 
 ## Built With
 
@@ -12,14 +12,14 @@
 
 ## Live Demo
 
-[Live Demo Link](https://app.netlify.com/sites/add-top-landing-page/deploys/62df7e2f6031080009c73688/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c9d5551a-5aef-4ab1-82a6-598add185171/deploy-status)](https://app.netlify.com/sites/frontend-mentor-preview-card/deploys)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/abdulsomod1/top-landing-page/pull/1
+git clone https://github.com/abdulsomod1/frontend-mentor-challenge/pull/1
 
 ```
 
